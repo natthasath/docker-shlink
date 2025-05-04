@@ -6,6 +6,8 @@ Shlink is a self-hosted URL shortener that allows you to generate and manage sho
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
 ![uptime](https://img.shields.io/badge/uptime-100%25-brightgreen)
 
+### 🔑 Generate API KEY
+
 ```
 docker exec -it shlink shlink api-key:generate
 ```
