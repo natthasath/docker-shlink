@@ -64,13 +64,13 @@ services:
 
 networks:
   default:
-    name: ${NETWORK_NAME:-shlink_network}
+    name: shlink_network
     driver: bridge
 
 volumes:
   postgres_data:
-    name: ${POSTGRES_VOLUME_NAME:-shlink_postgres_data}
+    name: shlink_postgres_data
     driver: local
   shlink_data:
-    name: ${SHLINK_VOLUME_NAME:-shlink_data}
+    name: shlink_data
     driver: local
